@@ -1,13 +1,17 @@
 # TEAM 2
 
-## App name
+## App Name
 
-> ### Cinematd
+<h1 align="center">
+  Cinematd
+</h1>
 
 ## Team members
 
-- ### Amer Issa (Scrum Master)
-- ### Pride Yin
+> ### Amer Issa (Scrum Master)
+> ### Pride Yin
+
+<br>
 
 > [!NOTE]
 > Team picture TBA.
@@ -65,6 +69,9 @@ Cinematd is an app that provides way for everyone to not only log movies for you
 * [Process description]()
 
 ## Dependencies
+
+For newer iterations of **Cinematd** using Vite to automate project builds, you may want to delete the `node_modules` folder within
+`/movieapp` (if present) containing packages that likely contain a multitude of vulnerabilities and manually install the following dependencies:
 
 ### @emotion/react
 
