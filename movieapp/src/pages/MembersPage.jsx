@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import './memberspage.css'
-import Avatar from '../Assets/avatar.jpg';
+import Avatar from '../assets/avatar.jpg';
 
 import { app } from "../FirebaseConfig";
 

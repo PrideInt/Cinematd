@@ -1,5 +1,5 @@
 import './filmswatched.css';
-import Avatar from '../Assets/avatar.jpg';
+import Avatar from '../assets/avatar.jpg';
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 
@@ -25,7 +25,7 @@ const options = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: ''
+        Authorization: import.meta.env.VITE_TMDB_AUTH
     }
 };
 
