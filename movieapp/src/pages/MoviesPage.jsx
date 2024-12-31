@@ -17,7 +17,7 @@ import Select from 'react-select';
 // ^ Edit: Scratch that. No longer want to do this. I'll come back to this another time.
 // Probably when it should exist in cache only when on the Movies page. Otherwise, we
 // have no use for it.
-const auth = process.env;
+// const auth = process.env;
 
 let todaysDate = new Date().toLocaleDateString().split('/');
 todaysDate = [parseInt(todaysDate[0]), parseInt(todaysDate[1]), parseInt(todaysDate[2])];
@@ -81,7 +81,7 @@ const options = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: ''
+        Authorization: import.meta.env.VITE_TMDB_AUTH
     }
 };
 

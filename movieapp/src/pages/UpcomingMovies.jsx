@@ -2,8 +2,8 @@
 
 // import React, {useState, useEffect} from 'react'
 // import '../App.css';
-// import MovieImage from '../Assets/emptypic.jpg';
-// import MoviePoster from '../Assets/movieposter.jpg';
+// import MovieImage from '../assets/emptypic.jpg';
+// import MoviePoster from '../assets/movieposter.jpg';
 // import Movie from '../pages/Movie';
 
 // import { BiSolidRightArrow } from 'react-icons/bi';

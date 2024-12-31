@@ -64,4 +64,82 @@ Cinematd is an app that provides way for everyone to not only log movies for you
 * ![Cinematd](https://github.com/paceuniversity/cs389f2023team2/assets/98407947/98872344-e210-4fd4-b5b7-08aa339b455d)
 * [Process description]()
 
+## Dependencies
 
+### @emotion/react
+
+```js
+npm install @emotion/react
+```
+
+### @emotion/styled
+
+```js
+npm install @emotion/styled
+```
+
+### @mui/styled-engine
+
+```js
+npm install @mui/styled-engine
+```
+
+### @mui/icons-material
+
+```js
+npm install @mui/icons-material
+```
+
+### bootstrap
+
+```js
+npm install bootstrap
+```
+
+### dotenv
+
+```js
+npm install dotenv
+```
+
+### firebase
+
+```js
+npm install firebase
+```
+
+### react-bootstrap
+
+```js
+npm install react-bootstrap
+```
+
+### react-firebase-hooks
+
+```js
+npm install react-firebase-hooks
+```
+
+### react-icons
+
+```js
+npm install react-icons
+```
+
+### react-router-dom
+
+```js
+npm install react-router-dom
+```
+
+### react-select
+
+```js
+npm install react-select
+```
+
+### sass-embedded
+
+```js
+npm install -D sass-embedded
+```
